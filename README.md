@@ -1,7 +1,7 @@
 # Bash Symbols & Operators Cheat Sheet
 
 ## Navigation
-[Basics](#basics) | [Quotes](#quotes-speech-marks) | [Variables & Expansions](#variables--expansions) | [Special Variables](#special-variables) | [Redirections](#redirections) | [Logic & Execution](#logic--execution) | [Grouping & Testing](#grouping--testing) | [Finding Files](#finding-files) | [History](#history-bangs) | [Common Flags](#common-flags) | [Operators](#numeric--string-operators) | [String Manipulation](#string-manipulation)
+[Basics](#basics) | [Quotes](#quotes-speech-marks) | [Variables & Expansions](#variables--expansions) | [Special Variables](#special-variables) | [Redirections](#redirections) | [Logic & Execution](#logic--execution) | [Grouping & Testing](#grouping--testing) | [Finding Files](#finding-files) | [History](#history-bangs) | [Common Flags](#common-flags) | [Math Operators](#math-operators) |[Operators](#numeric--string-operators) | [String Manipulation](#string-manipulation)
 
 ---
 
@@ -85,6 +85,18 @@
 | `-v` | Verbose | Makes the command talkative. |
 | `-f` | Force | Tells the command to just do its job and NOT ask for permission. |
 | `--` | End of Flags | Tells the computer: "I am done giving you flags." |
+
+## Math Operators
+| Symbol | Name | Description |
+| :--- | :--- | :--- |
+| `+` | Addition | Adds two numbers together |
+| `-` | Subtraction | Subtracts the second number from the first |
+| `*` | Multiplication | Multiplies two numbers |
+| `/` | Division | Divides the first number by the second |
+| `%` | Modulo (Remainder) | Divides two numbers and returns only the remainder |
+| `**` | Exponent (Power) | Raises the first number to the power of the second |
+| `++` | Increment | Increases the value of a variable by 1 |
+| `--` | Decrement | Decreases the value of a variable by 1 |
 
 ## Numeric & String Operators
 ### Numeric Operators
